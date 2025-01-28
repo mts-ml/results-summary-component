@@ -23,7 +23,6 @@ input {
    font-size: px-to-rem(18);
 }
 
-
 //Primary
 $Light-red: hsl(0, 100%, 67%);
 $Orangey-yellow: hsl(39, 100%, 56%);
@@ -49,8 +48,8 @@ body {
 }
 
 main {
-   border-radius: px-to-rem(10);
-   box-shadow: $Light-royal-blue-background;
+   border-radius: px-to-rem(10);   
+   box-shadow: 10px 10px 20px 12px hsla(221, 100%, 96%, 0.6);
 }
 
 .results {
@@ -64,8 +63,7 @@ main {
 @media (min-width: px-to-rem(768)) {
    main {
       display: flex;
-      align-items: center;
-      box-shadow: 10px 10px 20px 12px hsla(221, 100%, 96%, 0.6);
+      align-items: center;      
       height: px-to-rem(466);
    }
 
