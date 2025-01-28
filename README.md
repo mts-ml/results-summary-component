@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL](https://your-solution-url.com)
 - [Preview Site](https://your-live-site-url.com)
 
 
@@ -39,5 +39,5 @@ Users should be able to:
 
 ## Author
 
-- LinkedIn - (https://www.linkedin.com/in/mateus-lima-036790184/)
+- [LinkedIn](https://www.linkedin.com/in/mateus-lima-036790184/)
 - Frontend Mentor - [@mts-ml](https://www.frontendmentor.io/profile/mts-ml)
