@@ -1,0 +1,103 @@
+@function px-to-rem($px-value) {
+   @return $px-value / 16 * 1rem
+}
+
+
+//Primary
+$Light-red: hsl(0, 100%, 67%);
+$Orangey-yellow: hsl(39, 100%, 56%);
+$Green-teal: hsl(166, 100%, 37%);
+$Cobalt-blue: hsl(234, 85%, 45%);
+
+// Gradients
+$Light-slate-blue-background: hsl(252, 100%, 67%);
+$Light-royal-blue-background: hsl(241, 81%, 54%);
+$Violet-blue-circle: hsla(256, 72%, 46%, 1);
+$Persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+// Neutral
+$White: hsl(0, 0%, 100%);
+$Pale-blue: hsl(221, 100%, 96%);
+$Light-lavender: hsl(241, 100%, 89%);
+$Dark-gray-blue: hsl(224, 30%, 27%);
+
+
+
+.summary {
+   margin: px-to-rem(30);
+}
+
+.summary__title {
+   font-size: clamp(1.25rem, 1.136rem + 0.568vw, 1.563rem);
+   margin-block-end: px-to-rem(20);
+}
+
+.summary__area {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: px-to-rem(18);
+   margin-block-end: px-to-rem(20);
+   border-radius: px-to-rem(10);
+}
+
+.summary__area--red {
+   background-color: hsla(0, 100%, 67%,
+         .1);
+}
+
+.summary__area--yellow {
+   background-color: hsla(39, 100%, 56%,
+         .1);
+}
+
+.summary__area--green {
+   background-color: hsla(166, 100%, 37%,
+         .1);
+}
+
+.summary__area--blue {
+   background-color: hsla(234, 85%, 45%,
+         .1);
+}
+
+.summary__wrapper {
+   display: flex;
+   align-items: center;
+   gap: px-to-rem(16);
+}
+
+.red {
+   color: $Light-red;
+}
+
+.yellow {
+   color: $Orangey-yellow;
+}
+
+.green {
+   color: $Green-teal;
+}
+
+.blue {
+   color: $Cobalt-blue;
+}
+
+.summary__subtitle {
+   font-weight: 600;
+   font-size: px-to-rem(15);
+}
+
+.summary__score {
+   color: $Dark-gray-blue;
+   font-weight: 700;
+   font-size: px-to-rem(15);
+   padding-inline-end: px-to-rem(5);
+}
+
+.summary__span {
+   font-weight: 700;
+   font-size: px-to-rem(15);
+   color: hsla(224, 30%, 27%, .5);
+
+}
