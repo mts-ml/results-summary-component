@@ -23,8 +23,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Preview Site](https://your-live-site-url.com)
+- [Preview Site](https://mts-ml.github.io/results-summary-component/)
 
 
 ### Built with
