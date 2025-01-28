@@ -1,6 +1,5 @@
 import PropsTypes from 'prop-types'
 
-
 import './cardsStyle.scss'
 
 
@@ -13,18 +12,19 @@ Cards.propTypes = {
 
 
 export default function Cards(props) {
-
+   
+   
    const getBackgroundClass = (title) => {
       switch (title.toLowerCase()) {
          case 'reaction':
             return 'summary__area--red red'
          case 'memory':
             return 'summary__area--yellow yellow'
-         case 'verbal':
-            return 'summary__area--green green'
-         case 'visual':
-            return 'summary__area--blue blue'
-      }
+            case 'verbal':
+               return 'summary__area--green green'
+               case 'visual':
+                  return 'summary__area--blue blue'
+               }
    }
 
    function getColorClass(title) {

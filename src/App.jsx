@@ -1,6 +1,7 @@
 import Cards from './components/Cards/Cards'
 import data from '../data.json'
 
+
 import './styles/globalStyle.scss'
 
 
