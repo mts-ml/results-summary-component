@@ -48,7 +48,7 @@ body {
 }
 
 main {
-   border-radius: px-to-rem(10);   
+   border-radius: px-to-rem(10);
    box-shadow: 10px 10px 20px 12px hsla(221, 100%, 96%, 0.6);
 }
 
@@ -63,7 +63,7 @@ main {
 @media (min-width: px-to-rem(768)) {
    main {
       display: flex;
-      align-items: center;      
+      align-items: center;
       height: px-to-rem(466);
    }
 
@@ -151,22 +151,26 @@ main {
    border: none;
    z-index: 1;
    overflow: hidden;
-   
+
    &::before {
       content: '';
       position: absolute;
       background-image: linear-gradient(to bottom,
-      $Light-slate-blue-background,
-      $Light-royal-blue-background);
+            $Light-slate-blue-background,
+            $Light-royal-blue-background);
       opacity: 0;
       transition: opacity 400ms ease-in-out;
       z-index: -1;
       inset: 0;
    }
-   
+
    &:hover::before {
       transition: opacity 400ms ease-in-out;
       opacity: 1;
+   }
+
+   &:focus {
+      outline: 3px solid #00e1ff;
    }
 }
 
