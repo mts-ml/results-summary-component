@@ -44,9 +44,12 @@ function App() {
         <h1 className='results__title'>Your Result</h1>
 
         <div className="results__gradient">
-          <p className="results__point">76</p>
+          <p
+            className="results__point"
+            aria-label='Scored 76 out of 100.'
+          >76</p>
 
-          <span className="results__span">of 100</span>
+          <span className="results__span" aria-hidden="true">of 100</span>
         </div>
 
         <p className="results__level">Great</p>
@@ -62,6 +65,7 @@ function App() {
         {dataArray}
 
         <button
+          type='button'
           className='btn'
           aria-label="Continue to next section">
           Continue

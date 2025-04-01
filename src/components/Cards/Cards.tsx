@@ -52,7 +52,7 @@ export const Cards: React.FC<CardProps> = (props) => {
                {props.score}
             </span>
 
-            <span className="summary__span">/ 100</span>
+            <span className="summary__span" aria-hidden="true">/ 100</span>
          </div>
       </div>
    )
